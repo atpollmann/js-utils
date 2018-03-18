@@ -1,0 +1,22 @@
+{
+  "name": "js-utils",
+  "version": "1.0.0",
+  "description": "General purpose javascript utilities",
+  "main": "index.js",
+  "repository": {
+    "type": "Git",
+    "url": "git://github.com/atpollmann/js-utils"
+  },
+  "author": "Augusto Toledo Pollmann <atoledo@pcorp.cl>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "mime-types": "^2.1.18"
+  },
+  "devDependencies": {
+    "jest": "^22.4.2"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
