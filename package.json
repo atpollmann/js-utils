@@ -18,5 +18,9 @@
   },
   "scripts": {
     "test": "jest"
-  }
+  },
+  "files": [
+    "lib/",
+    "index.js"
+  ]
 }
