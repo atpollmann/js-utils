@@ -1,4 +1,4 @@
-var isFileExtensionInMimeType = require('./isFileExtensionInMimeType');
+var isFileExtensionInMimeType = require('../lib/isFileExtensionInMimeType');
 
 test('should return false if file type is not allowed', function () {
   expect(isFileExtensionInMimeType('image/jpeg', ['pdf', 'png'])).toBe(false);
