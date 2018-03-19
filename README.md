@@ -18,6 +18,10 @@ the string with the tokens replaced by the replacements.</p>
 <code>strFormat(&quot;This is a %s %s&quot;, [&quot;formatted&quot;, &quot;string&quot;]</code>
 returns <code>This is a formatted string</code></p>
 </dd>
+<dt><a href="#strTrunc">strTrunc(str, [characters])</a> ⇒ <code>string</code></dt>
+<dd><p>Truncates a string to the specified number of characters
+ellipsifying it (adding three dots at the end)</p>
+</dd>
 </dl>
 
 <a name="bytesToMultiples"></a>
@@ -64,4 +68,17 @@ returns `This is a formatted string`
 | --- | --- | --- |
 | str | <code>string</code> | The string with or without placeholders |
 | replacements | <code>Array.&lt;string&gt;</code> | An array of replacements for the placeholders |
+
+<a name="strTrunc"></a>
+
+## strTrunc(str, [characters]) ⇒ <code>string</code>
+Truncates a string to the specified number of characters
+ellipsifying it (adding three dots at the end)
+
+**Kind**: global function  
+
+| Param | Type | Default | Description |
+| --- | --- | --- | --- |
+| str | <code>string</code> |  | The string to truncate |
+| [characters] | <code>number</code> | <code>10</code> | The amount of characters to truncate (excluding the dots) |
 
